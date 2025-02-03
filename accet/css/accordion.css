@@ -1,0 +1,29 @@
+details {
+    border: 1px solid #ffffff;
+  }
+  details:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  /**
+   * list-style: none; ←デフォルト三角削除（Chrome非対応）
+   * cursor: pointer; ←カーソルをポインターに
+  **/
+  details summary {
+    cursor: pointer;
+    padding: 20px;
+    background: #514f4f;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  details img{
+    width: 50%;
+  }
+  
+  
+  details p {
+    margin: 0;
+    padding: 20px;
+  }
+  

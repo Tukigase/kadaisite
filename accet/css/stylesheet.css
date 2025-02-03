@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0px 150px;
+    font-family: Cica;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+ul{
+    padding-left: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+p{
+    font-size: 28px;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.g-nav-head li:not(:first-child){
+    border-left: white;
+}
+.g-nav-head li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+#wrap-top, #wrap-kadai, #wrap-lang{
+    width: 100%;
+    padding: 20px 0px;
+    display: inline-block;
+}
+.txt-box-top{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    border: solid greenyellow 5px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.titlebox-kadai, .titlebox-lang{
+    border-bottom-right-radius:20px;
+}
+.box-kadai{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    border: solid lightblue 3px;
+}
+.kadai-1, .kadai-2, .kadai-3{
+    border: solid white 3px;
+    text-align: center;
+    margin: 20px 15px;
+    padding-bottom: 30px;
+    width: 300px;
+}
+.img-kadai-1, .img-kadai-2, .img-kadai-3{
+    aspect-ratio: 16/4;
+    width: 300px;
+    height: auto;
+}
+.box-kadai img, .box-kadai video{
+    width: 300px;
+    height: 200px;
+}
+.box-kadai p{
+    font-size: 23px;
+}
+button{
+    float: right;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    border: none;
+}
+
+.box-lang{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 1px orange;
+}
+.list-lang ul{
+    padding-left: 0px;
+}
+.list-lang li{
+    font-size: 24px;
+    border-bottom: solid white 3px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.g-nav-foot{
+    float: right;
+}
+.g-nav-foot li{
+    margin-bottom: 15px;
+}
