@@ -111,6 +111,14 @@ button{
     border-bottom: solid white 3px;
 }
 
+.box-del{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 1px green;
+}
+
 footer{
     width: 100%;
     display: flex;
